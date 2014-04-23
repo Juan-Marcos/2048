@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #CAE8CB;
+  color: #284029;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -53,14 +53,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #477349;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: #284029;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -72,7 +72,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #284029; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -80,7 +80,7 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: rgba(71, 115, 73, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -149,7 +149,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #477349;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -187,7 +187,7 @@ hr {
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+      color: #477349;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
@@ -314,33 +314,34 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
+    
     background: #eee4da;
-    background: url('../title-sets/george-washington.jpg');
+    background: url('../title-sets/thumb/george-washington_thumb.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
-    background: url('../title-sets/thomas-jefferson.jpg');
+    background: url('../title-sets/thumb/thomas-jefferson_thumb.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
     background: #f2b179; 
-    background: url('../title-sets/abraham-lincoln.jpg');}
+    background: url('../title-sets/thumb/abraham-lincoln_thumb.jpg');}
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background: #f59563;
-    background: url('../title-sets/alexander-hamilton.jpg'); }
+    background: url('../title-sets/thumb/alexander-hamilton_thumb.jpg'); }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
     background: #f67c5f; 
-    background: url('../title-sets/andrew-jackson.jpg');}
+    background: url('../title-sets/thumb/andrew-jackson_thumb.jpg');}
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background: #f65e3b; 
-    background: url('../title-sets/ulysses-s-grant.jpg');}
+    background: url('../title-sets/thumb/ulysses-s-grant_thumb.jpg');}
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
-    background: url('../title-sets/benjamin-franklin.jpg');
+    background: url('../title-sets/thumb/benjamin-franklin_thumb.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -349,7 +350,7 @@ hr {
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
-    background: url('../title-sets/silver-bars.jpg');
+    background: url('../title-sets/thumb/silver-bars_thumb.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -358,7 +359,7 @@ hr {
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
-    background: url('../title-sets/gold-bars.jpg');
+    background: url('../title-sets/thumb/gold-bars_thumb.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -367,7 +368,7 @@ hr {
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background: #edc53f;
-    background: url('../title-sets/uncut-diamonds.jpg');
+    background: url('../title-sets/thumb/uncut-diamonds_thumb.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -376,7 +377,7 @@ hr {
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
-    background: url('../title-sets/bitcoin.jpg');
+    background: url('../title-sets/thumb/bitcoin_thumb.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -500,11 +501,11 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #477349;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #CAE8CB;
   height: 40px;
   line-height: 42px;
   display: block;
